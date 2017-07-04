@@ -1,0 +1,14 @@
+1、新建
+JAVA_HOME
+值：jdk路径
+
+2、修改
+PATH
+值：%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
+
+3、新建
+CLASSPATH
+值：.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
+
+4、测试
+java、javac、java -version
